@@ -3,9 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BrithDay Celebration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins&family=Roboto:wght@400;700&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    <h1>ola</h1>
+    <header class="hero">
+        <div class="container">
+            <img class="hero__logo" src="./images/bd_logo1.png" alt="logo">
+            <p class="hero__text">
+                Come celebrate with me a day of a mile stone <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <l1 class="infos-bar__infos__item">
+                        <b>Location</b>
+                        Praia do Gonzaga, 
+                        Belo Horizonte - MG
+                    </l1>
+                    <l1 class="infos-bar__infos__item">
+                        <b>Dress Code</b>
+                             All white
+                    </l1>
+                    <l1 class="infos-bar__infos__item">
+                        <b>Time & Date</b>
+                        22/04/2025 as 19hrs
+                    </l1>
+                </ul>
+                <a href="#" class="button button--primary">
+                    sign up
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="event event--tableserving">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__tittle">Table & Serving</h2>
+                <p class="event__details__description">
+                    Items needed to set up and serve food and drinks at the party,
+                     such as tablecloths, plates, utensils, napkins, and serving bowls.
+                      These ensure a well-organized and clean presentation.🍽️
+                </p>
+            </div>
+            <img class="event__image" src="./images/partyDrinks.jpg" alt="drinks">
+        </div>
+    </section>
+    <section class="event event--food event--image-left">
+        <div class="container"  data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__tittle">Food</h2>
+                <p class="event__details__description">
+                    Suggestions for party snacks and meals,
+                     ranging from simple options like fruit plates and
+                      sandwiches to party favorites like cupcakes and ice cream.
+                     It provides flexibility depending on the scale of the event.🍕
+                    </p>
+            </div>
+            <img class="event__image" src="./images/bd_food.jpg" alt="Food">
+        </div>
+    </section>
+    <section class="event event--decorations">
+        <div class="container"  data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__tittle">Decorations</h2>
+                <p class="event__details__description">
+                    Ideas for decorating the venue, including streamers, balloons, banners, and themed props to create a festive and visually appealing atmosphere.
+                    Activities and gifts to entertain kids, such as party hats, a piñata, and craft supplies. These ensure the children have fun and take home memorable keepsakes.🎀
+                </p>
+            </div>
+            <img class="event__image" src="./images/deco1.jpg" alt="deco">
+        </div>
+    </section>
+    <section class="event event--drinks event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__tittle">Drinks</h2>
+                <p class="event__details__description">
+                    Serve it straight to let guests enjoy the full flavor profile or
+                    with a few ice cubes to mellow the taste.
+                    Use it as a base for classic cocktails like an Old Fashioned or
+                    a Whisky Sour for adult attendees.🍸
+                </p>
+            </div>
+            <img class="event__image" src="./images/rum.jpg" alt="drink">
+        </div>
+    </section>
+    <section class="event event--bar event--image-right">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__tittle">The Bar</h2>
+                <p class="event__details__description">
+                    Stock popular options like whisky, vodka, rum, gin, wine, and beer to cater to different tastes.
+                    Include soda, tonic water, juices, and garnishes like lime, mint, and olives for cocktails.
+                    Equip your bar with essentials like a shaker, jigger, strainer, and muddler for easy preparation.🥂🍻  
+                </p>
+            </div>
+            <img class="event__image" src="./images/wine.jpg" alt="bar">
+        </div>
+    </section>
+    <section class="event event--party event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__tittle">Party</h2>
+                <p class="event__details__description">
+                    Partying is all about celebrating life, creating memories, and letting loose! It’s the perfect excuse to gather your favorite people, enjoy good food, drinks, music, and just have fun. Whether it’s dancing like nobody’s watching, sharing laughs over cocktails, or just vibing with great tunes, a party is a mini-vacation from routine.
+
+                    Remember: the best parties aren’t about perfection—they’re about connection. Oh, and maybe a little confetti for flair. 🎉 Just keep the snacks flowing and the playlist popping, and you’ve got yourself a winning celebration!
+                </p>
+            </div>
+            <img class="event__image" src="./images/partyppl.jpg" alt="partyppl">
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>   
+    <script src="scripts/main.js"></script>
 </body>
 </html>
